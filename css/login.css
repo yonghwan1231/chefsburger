@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+.menu_cover{
+    height: 800px;
+}
+
+.title{
+    height: 400px;
+    background-color: #ccc;
+    padding-top: 220px;
+    background-image: url(../img/menubanner.png);
+}
+
+.title>p{
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    height: 80px;
+}
+
+.title>p>span{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.join_cover{
+    margin-top: 100px;
+    width: 1200px;
+    height: 400px;
+    padding: 0 100px;
+}
+
+.email_join{
+    width: 500px;
+    height: 300px;
+    float: left;
+    padding-right: 120px;
+    border-right: 1px solid #ddd;
+}
+
+.email_join>h1{
+    font-size: 30px;
+    height: 50px;
+}
+
+.email_join>p:nth-child(2){
+    height: 50px;
+}
+
+
+.easy_join{
+    width: 500px;
+    height: 300px;
+    float: right;
+    padding-left: 120px;
+    border-left: 1px solid #ddd;
+}
+
+.email_join>form>input{
+    width: 380px;
+    height: 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.email_join>form>a,
+.email_join>form>button{
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ea9500;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.email_join>form>a{
+    margin-left: 19px;
+}
+
+.email_join>p:last-child{
+    margin-top: 20px;
+}
+
+.easy_join>h1{
+    font-size: 30px;
+    height: 100px;
+}
+
+.button_n>a,
+.button_k>a,
+.button_g>a{
+    display: inline-block;
+    width: 380px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.button_n{
+    background-color: #00bf18 ;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.button_k{
+    background-color: #fae301 ;
+    margin-bottom: 10px;
+}
+
+.button_g{
+    background-color: #fff ;
+}

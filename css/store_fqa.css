@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+.menu_cover{
+    height: 1700px;
+}
+
+.title{
+    height: 400px;
+    background-color: #ccc;
+    padding-top: 220px;
+    background-image: url(../img/menubanner.png);
+}
+
+.title>p{
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    height: 80px;
+}
+
+.title>p>span{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.select{
+    border-bottom: 1px solid #ccc;
+}
+
+.select_list{
+    width: 450px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.select_list>li{
+    float: left;
+
+}
+
+.select_list>li>a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.select_list>li:nth-child(3)>a{
+    color: #ea9500;
+    border-bottom: 3px solid #ea9500;
+}
+
+.fqa_cover{
+    margin-top: 100px;
+    width: 840px;
+    padding: 19px;
+    border: 1px solid #ccc;
+    
+}
+
+.fqa_cover>p:first-child{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #ea9500;
+}
+
+.fqa_cover>p:nth-child(2){
+    margin-top: 10px;
+    opacity: 0.6;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fqa_cover>form>p>span{
+    display: inline-block;
+    width: 120px;
+    padding-left: 20px;
+}
+
+.fqa_cover>form>p{
+    height: 40px;
+    line-height: 40px;
+}
+
+.fqa_cover input,
+.fqa_cover select{
+    border: 1px solid #ccc;
+    height: 30px;
+}
+
+.phone>input,
+.phone>select{
+    width: 80px;
+}
+
+.store>input{
+    vertical-align: middle;
+}
+
+.store>label{
+    cursor: pointer;
+}
+
+.fqatitle>input{
+    width: 680px;    
+}
+
+.q{
+    height: 300px !important;
+}
+
+
+.q>input{
+    width: 680px;
+    height: 300px;
+}
+
+.pryvacy_title{
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+}
+
+.pryvacy{
+    padding: 10px;
+    height: 150px;
+    overflow: auto;
+    opacity: 0.6;
+    border: 1px solid #ccc;
+}
+
+.yesno{
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+}
+
+
+.yesno>input{
+    vertical-align: middle;
+}
+
+.yesno>label{
+    cursor: pointer;
+}
+
+.fqa_cover>form>p:last-child{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fqa_cover>form>p:last-child>input{
+    width: 150px;
+    height: 40px;
+    background-color: #ea9500;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+.menu_cover{
+    height: 3280px;
+}
+
+.title{
+    height: 400px;
+    background-color: #ccc;
+    padding-top: 220px;
+    background-image: url(../img/menubanner.png);
+}
+
+.title>p{
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    height: 80px;
+}
+
+.title>p>span{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.select{
+    border-bottom: 1px solid #ccc;
+}
+
+.select_list{
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.select_list>li{
+    float: left;
+
+}
+
+.select_list>li>a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.select_list>li:nth-child(1)>a{
+    color: #ea9500;
+    border-bottom: 3px solid #ea9500;
+}
+
+.brand{
+    height: 2800px;
+    padding-top: 100px;
+}
+
+.story{
+    width: 1200px;
+    padding: 0 100px;
+    height: 550px;
+}
+
+.story>div{
+    width: 450px;
+    height: 550px;
+    background-color: #ccc;
+    float: left;
+}
+
+.story>article{
+    width: 450px;
+    height: 550px;
+    float: right;
+    line-height: 2em;
+}
+
+.concept{
+    margin-top: 200px;
+}
+
+.concept>div{
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+
+.delicious>div{
+    width: 612px;
+    height: 150px;
+    background-color: #bf1522;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+
+.delicious>div>img{
+    position: absolute;
+    top: -150px;
+    left: 56px;
+    
+}
+
+.delicious>article{
+    width: 588px;
+    height: 300px;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
+.delicious>article>p:first-child{
+    font-size: 30px;
+}
+
+.delicious>article>div{
+    width: 40px;
+    height: 6px;
+    background-color: #ea9500;
+    margin: 24px 0;
+}
+
+.creative>div{
+    width: 612px;
+    height: 150px;
+    background-color: #96c11b;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.creative>div>img{
+    position: absolute;
+    top: -150px;
+    left: 56px;
+}
+
+.creative>article{
+    width: 588px;
+    height: 300px;
+    background-color: #eee;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+    padding: 30px;
+}
+
+.creative>article>p:first-child{
+    font-size: 30px;
+}
+
+.creative>article>div{
+    width: 40px;
+    height: 6px;
+    background-color: #ea9500;
+    margin: 24px 0;
+    margin-left: 488px;
+}
+
+.american>div{
+    width: 612px;
+    height: 150px;
+    background-color: #ea9500;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+
+.american>div>img{
+    position: absolute;
+    top: -150px;
+    left: 56px;
+}
+
+
+.american>article{
+    width: 588px;
+    height: 300px;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
+.american>article>p:first-child{
+    font-size: 30px;
+}
+
+.american>article>div{
+    width: 40px;
+    height: 6px;
+    background-color: #ea9500;
+    margin: 24px 0;
+}
+
+.map{
+    width: 1200px;
+    padding: 0 102px;
+}
+
+.map>h1{
+    text-align: center;
+    height: 200px;
+    line-height: 100px;
+}
+
+.map>article{
+    width: 486px;
+    height: 384px;
+    float: left;
+    position: relative;
+    background-image: url(../img/map_bg.png);
+}
+
+.map>article>p{
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    line-height: 2em;
+}
+
+.map>article>p>span{
+    font-size: 16px;
+}
+
+.map>div{
+    width: 384px;
+    height: 384px;
+    float: right;
+}

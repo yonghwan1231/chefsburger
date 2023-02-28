@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+.menu_cover{
+    height: 1500px;
+}
+
+.title{
+    height: 400px;
+    background-color: #ccc;
+    padding-top: 220px;
+    background-image: url(../img/menubanner.png);
+}
+
+.title>p{
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    height: 80px;
+}
+
+.title>p>span{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.select{
+    border-bottom: 1px solid #ccc;
+}
+
+.select_list{
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.select_list>li{
+    float: left;
+
+}
+
+.select_list>li>a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.select_list>li:nth-child(2)>a{
+    color: #ea9500;
+    border-bottom: 3px solid #ea9500;
+}
+
+.event_cover{
+    margin-top: 100px;
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.event_list{
+    width: 1200px;
+}
+
+.event_list>li{
+    width: 384px;
+    height: 250px;
+    float: left;
+    margin-right: 24px;
+    background-color: #ccc;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.event_list>li:nth-child(3n){
+    margin-right: 0;
+}
+
+.event_list>li>ul{
+    position: absolute;
+    bottom: -50px;
+}
+
+.event_cover>a{
+    position: absolute;
+    bottom: 0;
+    right: 560px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 40px;
+    background-color: #ea9500;
+    font-size: 40px;
+    color: #fff;
+}

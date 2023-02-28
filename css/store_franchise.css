@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+.menu_cover{
+    height: 2780px;
+}
+
+.title{
+    height: 400px;
+    background-color: #ccc;
+    padding-top: 220px;
+    background-image: url(../img/menubanner.png);
+}
+
+.title>p{
+    font-size: 52px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    height: 80px;
+}
+
+.title>p>span{
+    font-size: 20px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.select{
+    border-bottom: 1px solid #ccc;
+}
+
+.select_list{
+    width: 450px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.select_list>li{
+    float: left;
+
+}
+
+.select_list>li>a{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.select_list>li:nth-child(2)>a{
+    color: #ea9500;
+    border-bottom: 3px solid #ea9500;
+}
+
+.franchise_guide{
+    margin-top: 100px;
+    width: 1200px;
+    text-align: center;
+}
+
+.franchise_guide>h1{
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: #ea9500;
+}
+
+table{
+    width: 1200px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    text-align: center;
+    border:1px solid #ccc;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+table tr{
+    height: 50px;
+}
+
+table tr>th{
+    font-size: 20px;
+    color: #ea9500;
+}
+
+table tr>td{
+    opacity: 0.8;
+}
+
+table tr>td:nth-child(2),
+table tr:nth-child(5)>td:nth-child(3){
+    font-weight: bold;
+}
+
+table tr:nth-child(5)>td:nth-child(2){
+    font-weight: normal
+}
+
+.franchise_guide>p:nth-child(3){
+    margin-top: 30px;
+    font-size: 20px;
+    color: #ea9500;
+}
+
+.franchise_guide>p:nth-child(4){
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.franchise_guide>h1:nth-child(5){
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.franchise_guide>h1:nth-child(7){
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.franchise_guide>p:nth-child(8){
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.franchise_guide>ul>li{
+    display: inline-block;
+}
+
+.franchise_guide>ul>li:nth-child(2){
+    margin: 0 10px;
+}
